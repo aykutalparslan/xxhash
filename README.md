@@ -11,7 +11,7 @@ to the following types:
 
   
 **Can be used as follows:**
-```
+```csharp
 using xxHash;
   
 byte[] data = Encoding.UTF8.GetBytes("Hello xxHash");
@@ -20,7 +20,7 @@ ulong hash = data.GetXxHash64();
   
   
 ***seed*** is an optional parameter
-```
+```csharp
 using xxHash;
   
 byte[] data = Encoding.UTF8.GetBytes("Hello xxHash");
